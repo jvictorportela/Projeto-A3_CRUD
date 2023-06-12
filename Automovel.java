@@ -14,7 +14,7 @@ public class Automovel {
         this.placa = placa; // placa do veiculo
         this.nome_dono = nome_dono; // nome do dono do veiculo
         this.cor = cor; // cor do veiculo
-        tamanho = 0; 
+        tamanho = 0;
         dataHora_entrada = null; // horario de entrada como null porque nao foi estacionado o veiculo ainda
         dataHora_saida = null; // horario de saida como null porque nao foi retirado o veiculo ainda
     }

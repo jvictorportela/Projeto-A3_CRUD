@@ -12,7 +12,7 @@ public class Detran {
     private Automovel veiculo;
     // Metodo Construtor
     public Detran(){
-        automoveis = new ArrayList<>(); 
+        automoveis = new ArrayList<>();
         Carro joaop = new Carro("Amarok", "P0rt3", "Joao", "Preto"); // #1
         Carro ana = new Carro("Fusca", "1345", "Ana Verena", "Verde Cana"); // #2
         Moto thayna = new Moto("Honda XRE 300", "Goku", "Thayna", "Ciano"); // #3
@@ -108,7 +108,7 @@ public class Detran {
         // Busca o veiculo
         // E armazena na variavel veiculo o objeto veiculo
         Automovel veiculo = Buscar();
-        // Remove do Array do Detran o veiculo!  
+        // Remove do Array do Detran o veiculo!
         automoveis.remove(veiculo);
         System.out.println("Veiculo apagado do Detran com sucesso");
 

@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Programa{
     public static void main(String args[]){
         Scanner scan = new Scanner(System.in); // Declarando o Scanner
-        Estacionamento GH_carros = new Estacionamento(); // Criando um estacionamento 
+        Estacionamento GH_carros = new Estacionamento(); // Criando um estacionamento
         Detran detran = new Detran();  // Criando o detran
-        // Menu 
+        // Menu
         System.out.println("=====MENU=====");
         System.out.println("Bem-vindo ao estacionamento do GH Carros");
         System.out.println("[1] - Deseja estacionar um carro?");
@@ -53,10 +53,7 @@ public class Programa{
                             case 4:
                                 detran.MostrarTodos();
                                 break;
-                            case 0: // comentario para ismael o amigo e ana O caminhão:
-                                    // Recado de Thayna <3
-                                    // - Façam esse campo aqui retornar o menu em um loop 
-                                    // porfavorzinho... com Amor Thayna<3
+                            case 0:
                         }
                         System.out.println("=====DETRAN====");
                         System.out.println("[1] - Deseja Cadastrar um veiculo?");
